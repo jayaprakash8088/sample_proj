@@ -23,7 +23,7 @@ class ExerciseList extends StatelessWidget {
           scrollDirection: Axis.vertical,
           shrinkWrap: true,
           physics: const ScrollPhysics(),
-          itemCount: 10,
+          itemCount: allListController.exerciseList.value.length,
           itemBuilder: (context, index) {
             return GestureDetector(
               onTap: () => Get.to(()=>DetailScreen(
