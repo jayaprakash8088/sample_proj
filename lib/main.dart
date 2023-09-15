@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
       title: 'Sample Project',
       debugShowCheckedModeBanner: false,
       initialBinding: MyBindings(),
-      initialRoute: '/allList',
+      initialRoute: '/',
       getPages: [
-        GetPage(name: '/allList', page: () => const ExerciseList()),
+        GetPage(name: '/', page: () => const ExerciseList()),
         GetPage(name: '/detail', page: () =>  const DetailScreen(responseModel:null,))
       ],
       theme: ThemeData(
