@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:sample_proj/app/features/model/response_model/all_list_response_model.dart';
 import 'package:sample_proj/app/features/my_widgets/fields_widget.dart';

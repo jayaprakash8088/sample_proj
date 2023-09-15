@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
       title: 'Sample Project',
       debugShowCheckedModeBanner: false,
       initialBinding: MyBindings(),
-
       initialRoute: '/allList',
       getPages: [
         GetPage(name: '/allList', page: () => const ExerciseList()),
