@@ -67,6 +67,10 @@ class ExerciseList extends StatelessWidget {
                           name: body,
                           field: allListController
                               .exerciseList1.value[index].bodyPart),
+                      Fields(
+                          name: name,
+                          field: allListController
+                              .exerciseList1.value[index].id),
                     ],
                   ),
                 ),

@@ -40,7 +40,7 @@ class AllListController extends GetxController {
    for(int i=pos;i<exerciseList.value.length;i++){
      exerciseList1.value.add(exerciseList.value[i]);
      if(i+1==maxPos){
-       pos=i;
+       pos=i+1;
        break;}
    }
   }
